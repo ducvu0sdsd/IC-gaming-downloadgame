@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../IC-gaming-downloadgame/CSS/bootstrap.min.css">
+    <script src="../IC-gaming-downloadgame/JavaScript/jquery-3.6.0.min.js"></script>
+    <script src="../IC-gaming-downloadgame/JavaScript/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../IC-gaming-downloadgame/CSS/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>IC Gaming</title>
+</head>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.list-menu li').hover(function() {
+                $(this).find(".sub-menu").stop().fadeIn(500);
+            },
+            function() {
+                $(this).find(".sub-menu").stop().fadeOut(300);
+            });
+    });
+</script>
+
+<body style="background-color: rgb(30, 29, 30);">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" style="background-color: black;">
+                <div class="col-md-3" style="display: flex; justify-content: center;">
+                    <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F197f6595-3be6-48af-b4a4-06d18bbf8325%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(2).png?table=block&id=9d9086bc-d997-4e27-9432-1e72613fce69&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=1300&userId=&cache=v2"
+                        alt="" width="80%">
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar-collapse">
+                        <ul class="navbar nav">
+                            <li class="navbar-item dropdown item_menu_right"><a href="../IC-gaming-downloadgame/index.html"><i class="fa-solid fa-house-chimney" style="font-size: 30px;margin-right: 5px;"></i>Trang Chủ</a></li>
+                            <li class="navbar-item dropdown item_menu_right"><a href="#"><i class="fa-solid fa-dice-five"style="font-size: 30px;margin-right: 5px;"></i>Tải Game</a></li>
+                            <li class="navbar-item dropdown item_menu_right"><a href="#"><i class="fa-brands fa-uncharted" style="font-size: 30px;margin-right: 5px;"></i>Tải Phần Mềm</a></li>
+                            <li class="navbar-item dropdown item_menu_right"><a href="#lienhe"><i class="fa-solid fa-phone" style="font-size: 30px;margin-right: 5px;"></i>Liên Hệ</a></li>
+                            <li class="navbar-item dropdown item_menu_right">
+                                <form action="" style="display: flex; width: 400px;">
+                                    <select name="tk" id="comboboxtimkiem">
+                                </select>
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass" style="font-size: 30px;margin-left: 10px;margin-top: 10px;"></i></a>
+                                </form>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12" style="display: flex;justify-content: center;">
+                    <div class="main">
+                        <br>
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5add5ee8-3718-4fb0-84be-0470e41e1a8d%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(11).png?table=block&id=f4dd4d98-152b-486c-aeca-c629ce46199c&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" class="img-feature" style="border-radius: 30px; " width="100%">
+                        <div class="control next">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="control prev">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                    </div>
+                    <div class="list-image" style="display: none;">
+                        <br>
+                        <div class="active">
+                            <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5add5ee8-3718-4fb0-84be-0470e41e1a8d%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(11).png?table=block&id=f4dd4d98-152b-486c-aeca-c629ce46199c&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                alt="">
+                        </div>
+                        <div><img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F12656ae3-91bb-49be-9a01-740c70b4627c%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(13).png?table=block&id=56ee56cf-2845-4abc-b6a0-edacbaf62226&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                alt=""></div>
+                        <div><img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6c2d488c-7288-49d8-99dd-948c96639b37%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(6).png?table=block&id=bb651eab-677a-4f66-9989-294787965598&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                alt=""></div>
+                        <div><img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7396d8e9-dc7f-4449-8d63-5c770cbcf356%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(5).png?table=block&id=5f820465-c735-4f86-9dea-0f656bcd850e&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                alt=""></div>
+                        <div><img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F09e5853d-72fd-4d41-a8de-5218f6d45f4e%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(4).png?table=block&id=4a574921-ffac-4cd8-85db-059de1927c8f&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                alt=""></div>
+                        <div><img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6913f817-f03c-42f1-bdf8-1654c3833514%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(7).png?table=block&id=fdc3c174-e0a9-4091-824d-3fde21d0c20f&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                alt=""></div>
+                        <div><img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd26dd155-fa0e-470b-b6db-d1c58ce3f4d1%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(8).png?table=block&id=fedd57dd-c853-4fea-bab0-e84d299fdc11&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                alt=""></div>
+                        <div><img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F005e29e3-87f6-4e59-91bb-a1d1f508493a%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(14).png?table=block&id=a9958d0b-84f1-42e1-ba9e-c84adc4a04e8&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" style="border-bottom: 5px solid black;">
+                <div class="tieudegame">
+                    <h1 style="padding: 20px;font-size: 30px;color: white;">GAME NỔI BẬT</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="border-radius: 30px;">
+            <div class="col-md-12 gametieubieu" style="margin-bottom: 10px;">
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/santrilogy.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5add5ee8-3718-4fb0-84be-0470e41e1a8d%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(11).png?table=block&id=f4dd4d98-152b-486c-aeca-c629ce46199c&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">Cách tải GTA San Andreas DEFINITIVE EDITION miễn phí</p>
+                    </a>
+                </div>
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/vicecitytrilogy.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F12656ae3-91bb-49be-9a01-740c70b4627c%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(13).png?table=block&id=56ee56cf-2845-4abc-b6a0-edacbaf62226&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">Cách tải GTA Vice City DEFINITIVE EDITION UPDATE miễn phí</p>
+                    </a>
+                </div>
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/gtasandirectx2.0.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F005e29e3-87f6-4e59-91bb-a1d1f508493a%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(14).png?table=block&id=a9958d0b-84f1-42e1-ba9e-c84adc4a04e8&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">Cách tải GTA San Andreas DirectX 2.0 miễn phí</p>
+                    </a>
+                </div>
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/farcry3.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd26dd155-fa0e-470b-b6db-d1c58ce3f4d1%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(8).png?table=block&id=fedd57dd-c853-4fea-bab0-e84d299fdc11&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">Cách tải và cài đặt game Far Cry 3 miễn phí</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12 gametieubieu">
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/vicecitydarkrise.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3911f1d0-800d-4610-b4c2-22e07a380212%2Fmaxresdefault_(1).jpg?table=block&id=22635e4f-de40-4970-8627-3a0e3e8cf6f1&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">Cách tải GTA VICE CITY DARK RISE miễn phí</p>
+                    </a>
+                </div>
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/gta3trilogy.html">
+                        <img src="https://daominhha.com/wp-content/uploads/2021/11/download-Grand-Theft-Auto-The-Trilogy-full-crack-daominhha1.jpg" alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">Cài đặt GTA III DEFINITIVE EDITION nhanh nhất 2022</p>
+                    </a>
+                </div>
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/improvegtasan.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa54d60ad-92f0-4110-aea9-e6338864b5f0%2Fzyro-image_(1).png?table=block&id=2f727c31-4485-405c-9534-e5e5a3e5d6f7&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">Cách tải và cài đặt GTA San Andreas đồ họa GTA 5</p>
+                    </a>
+                </div>
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/vicecity.html">
+                        <img src="https://wallpaperaccess.com/full/1614506.png" alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">Cách Tải Và Cài Đặt GTA VICE CITY</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12 gametieubieu">
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/7554.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6913f817-f03c-42f1-bdf8-1654c3833514%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(7).png?table=block&id=fdc3c174-e0a9-4091-824d-3fde21d0c20f&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">Cách tải và cài đặt game 7554 miễn phí</p>
+                    </a>
+                </div>
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/gtasanmod3map.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6c2d488c-7288-49d8-99dd-948c96639b37%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(6).png?table=block&id=bb651eab-677a-4f66-9989-294787965598&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">GTA San Andreas mod bản đồ Vice City và GTA3</p>
+                    </a>
+                </div>
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/top6gtavicecity.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F09e5853d-72fd-4d41-a8de-5218f6d45f4e%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(4).png?table=block&id=4a574921-ffac-4cd8-85db-059de1927c8f&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">TOP 6 Phiên Bản GTA Vice City MOD Đồ Họa Link Tải Google Drive</p>
+                    </a>
+                </div>
+                <div class="col-md-3 box tieubieu">
+                    <a href="../IC-gaming-downloadgame/gtasanremaster.html">
+                        <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7396d8e9-dc7f-4449-8d63-5c770cbcf356%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(5).png?table=block&id=5f820465-c735-4f86-9dea-0f656bcd850e&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                            alt="" width="100%" style="border-radius: 30px;">
+                        <p style="text-align: center; font-size: 20px; color: white;margin-top: 10px;">GTA SAN ANDREAS REMASTER BEST GRAPHICS</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 70px;background-color: black;">
+            <a name="lienhe"></a>
+            <div class="col-md-12">
+                <div class="footer">
+                    <div class="col-md-6" style="margin-top: 20px;border-right: 2px solid white;">
+                        <div class="col-md-12" style="margin-top: 5px;display: flex;justify-content: center;">
+                            <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F197f6595-3be6-48af-b4a4-06d18bbf8325%2FNhiu_mu_sc_Ha_tit_v_Hnh_dng_Tru_tng_Li_chc_mng_Bn_thn_nht_Bn_thuyt_trnh_Vui_nhn_(2).png?table=block&id=9d9086bc-d997-4e27-9432-1e72613fce69&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=1300&userId=&cache=v2"
+                                alt="" width="60%">
+                        </div>
+                        <div class="col-md-12">
+                            <p style="color: white;font-size: 20px;text-align: center;margin-top: 20px;">IC GAMING DOWNLOAD Là Wed Site Tải Game Link Google Drive Miễn Phí, Tốt Độ Cao Bao Gồm : Game Gốc , Game MODS , Game Việt Hóa ... Nhầm Giúp Cho Người Chơi Có Trải Nghiệm Tốt Nhất Khi Chơi </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <div class="col-md-12">
+                            <h1 style="text-align: center;color: white;font-weight: bold;">Liên Hệ Ngay Tại Đây</h1>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="hinhfooter">
+                                <div class="col-md-4" style="display: flex; justify-content: center;">
+                                    <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F01e79698-e6dd-4472-bbce-3c00be2c5f1f%2F150-1504080_facebook-white-facebook-white-icon-png-2018-clipart.png?table=block&id=b8494a90-f5fd-42b9-8154-6b420410acd7&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                        width="80%" style="margin-top: 20px;" alt="">
+                                </div>
+                                <div class="col-md-4" style="display: flex; justify-content: center;">
+                                    <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1c6ffe42-d7e7-4576-b81f-895e5d0e3ff5%2FInsta-Logo-PNG-Pic.png?table=block&id=1360336d-c74b-4c6b-bcd4-3105bf89c76a&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=2000&userId=&cache=v2"
+                                        width="105%" alt="">
+                                </div>
+                                <div class="col-md-4" style="display: flex; justify-content: center;">
+                                    <img src="https://pitch-magnesium-3af.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F54c3bba1-c731-4dc9-bc19-fa637a4c4168%2Fpixlr-bg-result_(13).png?table=block&id=80c8b347-3840-4efe-8e4d-8a22e381cc84&spaceId=1a67c586-9ae3-4ad1-b17c-dc8466c4cac0&width=1720&userId=&cache=v2"
+                                        width="100%" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-color: rgb(66, 64, 64);">
+            <div class="col-md-12">
+                <div class="copy">
+                    <div class="box1" style="height: 5px;">
+
+                    </div>
+                    <p style="margin-left: 10px; color: white;">Copyright © 2022 ICGamingDownload.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../IC-gaming-downloadgame/JavaScript/ap.js"></script>
+
+</html>
