@@ -33,6 +33,13 @@ ul {
     width: 100%;
 }
 
+.main1 {
+    margin-top: 15px;
+    position: relative;
+    border-radius: 30px;
+    width: 100%;
+}
+
 .img-feature {
     transition: 1s;
 }
@@ -72,6 +79,48 @@ ul {
 }
 
 .active {
+    background: black;
+}
+
+.img-feature1 {
+    transition: 1s;
+}
+
+.list-image1 {
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.list-image1 div {
+    flex: 1;
+    padding: 3px;
+}
+
+.list-image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.control1 {
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    color: white;
+    transform: translateY(-50%);
+}
+
+.prev1 {
+    left: 10px;
+}
+
+.next1 {
+    right: 10px;
+}
+
+.active1 {
     background: black;
 }
 
@@ -122,4 +171,12 @@ nav ul {
 
 .tieubieu img:hover {
     width: 103%;
+}
+
+.tieudephanmem {
+    height: 70px;
+    width: 340px;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 40px;
 }
