@@ -169,8 +169,16 @@ nav ul {
     text-decoration: solid white;
 }
 
-.tieubieu img:hover {
-    width: 103%;
+.tieubieu img {
+    transition: 0.5s;
+}
+
+.tieubieu:hover img {
+    width: 110%;
+}
+
+.tieubieu:hover p {
+    font-size: 25px;
 }
 
 .tieudephanmem {
