@@ -7,6 +7,12 @@ li {
     top: 23px;
 }
 
+.rowmenu {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
 li a {
     color: white;
     font-size: 18px;
