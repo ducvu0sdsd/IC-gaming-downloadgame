@@ -201,3 +201,41 @@ nav ul {
     margin-left: 10px;
     margin-top: 40px;
 }
+
+.tieubieu1 img,
+.tieubieu1 p {
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.tieubieu1 {
+    background-color: black;
+    overflow: hidden;
+    height: 370px;
+}
+
+.tieubieu1:hover img,
+.tieubieu1:hover p {
+    transform: translate(0px, -30px);
+}
+
+.tieubieu1:hover .xem {
+    transform: translate(0px, -60px);
+}
+
+.xem {
+    text-align: center;
+    font-size: 23px;
+    transition: 0.5s;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.xem a {
+    color: black;
+}
+
+.sanpham li {
+    float: left;
+}
