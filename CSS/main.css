@@ -137,14 +137,12 @@ ul {
     background: black;
 }
 
-.gametieubieu {
-    display: flex;
-    justify-content: center;
+.gametieubieu .box {
+    margin-top: 20px;
+    border-radius: 30px;
 }
 
-.gametieubieu .box {
-    margin-right: 10px;
-    margin-left: 10px;
+.gametieubieu1 .box {
     margin-top: 20px;
     border-radius: 30px;
 }
@@ -187,7 +185,7 @@ nav ul {
 }
 
 .tieubieu:hover img {
-    width: 110%;
+    width: 105%;
 }
 
 .tieubieu:hover p {
@@ -211,7 +209,7 @@ nav ul {
 .tieubieu1 {
     background-color: black;
     overflow: hidden;
-    height: 370px;
+    height: 430px;
 }
 
 .tieubieu1:hover img,
@@ -220,7 +218,7 @@ nav ul {
 }
 
 .tieubieu1:hover .xem {
-    transform: translate(0px, -60px);
+    transform: translate(0px, -100px);
 }
 
 .xem {
@@ -230,6 +228,7 @@ nav ul {
     width: 100%;
     background-color: white;
     border-radius: 30px;
+    height: 35px;
 }
 
 .xem a {
@@ -238,4 +237,47 @@ nav ul {
 
 .sanpham li {
     float: left;
+}
+
+.tieubieu1 img {
+    height: 55%;
+    width: 100%;
+}
+
+.tieubieu1 p {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* mobile: width < 740px */
+
+@media only screen and (max-width: 46.1875em) {
+    .tieubieu1 img {
+        position: relative;
+        height: 55%;
+        width: auto;
+        margin-left: 23%;
+    }
+    .gamtieubieu1 {
+        position: relative;
+    }
+    .navbar {
+        margin-left: 18%;
+    }
+    .tieudegame {
+        margin-left: 18%;
+    }
+}
+
+
+/* table : width >= 740px  and width < 1024 px*/
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .tieubieu1 img {
+        height: 55%;
+        width: auto;
+        margin-left: 35%;
+    }
 }
