@@ -250,24 +250,36 @@ nav ul {
     align-items: center;
 }
 
+.hinhfooter i {
+    color: white;
+    font-size: 180px;
+}
+
 
 /* mobile: width < 740px */
 
 @media only screen and (max-width: 46.1875em) {
     .tieubieu1 img {
-        position: relative;
         height: 55%;
         width: auto;
-        margin-left: 23%;
-    }
-    .gamtieubieu1 {
-        position: relative;
+        margin-left: 14%;
     }
     .navbar {
-        margin-left: 18%;
+        margin-left: 8%;
     }
     .tieudegame {
-        margin-left: 18%;
+        margin-left: 0%;
+    }
+    .hinhfooter {
+        display: flex;
+        justify-content: center;
+    }
+    .hinhfooter i {
+        color: white;
+        font-size: 600%;
+    }
+    .footer {
+        height: 400px;
     }
 }
 
@@ -279,5 +291,16 @@ nav ul {
         height: 55%;
         width: auto;
         margin-left: 35%;
+    }
+    .hinhfooter {
+        display: flex;
+        justify-content: center;
+    }
+    .hinhfooter i {
+        color: white;
+        font-size: 600%;
+    }
+    .footer {
+        height: 450px;
     }
 }
